@@ -1,8 +1,0 @@
-function [px, py, pz] = get_p(obj)
-% get_p(mass, vel_x, vel_y, vel_z)
-% finds momentum in R3
-px = m * vx;
-py = m * vy;
-pz = m * vz;
-
-end

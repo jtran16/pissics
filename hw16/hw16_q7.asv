@@ -1,0 +1,23 @@
+m = .15;
+vi = 0;
+x2 = .05;
+F = 6;
+x1 = .02;
+x3 = .11;
+
+% pt1: cm_i, cm_f
+cm_i = get_cm(m, 0, m, x2);
+cm_f = get_cm(m, x1, m, x3);
+d_cm = cm_f - cm_i;
+
+% pt2: same numbers as above
+
+% pt3: distance, W
+d = d_cm;
+W = F * d;
+
+% pt4: just translational kinetic
+
+% pt5: d_KE_trans
+d_KE_trans = get_ke(2m, vf) - get_ke(2m, vi)
+
