@@ -1,0 +1,13 @@
+w = 70;
+alpha = 35;
+dt = .003;
+dL = 4e-4;
+d = .23;
+m = .2;
+
+I = 2 * m * (d/2)^2;
+
+% pt 1
+% L = I * (dw / dt)
+% dL/dt = F * (d/2)
+F = (dL / dt) * (2/d) / sind(alpha);

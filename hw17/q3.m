@@ -1,9 +1,9 @@
-k = 500;
-s = .35;
+k = 480;
+s = .44;
 m1 = 7;
-v1 = [7, 12, 0];
+v1 = [6, 11, 0];
 m2 = 4;
-v2 = [8, 7, 0];
+v2 = [6, 8, 0];
 
 psys = m1 * v1 + m2 * v2;
 
@@ -15,4 +15,4 @@ mag_v2 = sqrt(v2(1)^2 + v2(2)^2);
 Ktot = get_ke(m1, mag_v1) + get_ke(m2, mag_v2);
 
 Ktrans = (1/2) * (m1 + m2) * (mag_vcm^2);
-Krel = Ktot - Ktrans;
+Krel = Ktot - Ktrans
